@@ -34,11 +34,9 @@ and  replace **gfortran** with the choice of compiler.
     make
 ```
 
-## Modify temperatures:
+## Input:
 
-There is only one file which needs to be modified to get rate coefficients for the desired Temperatures (both T<sub>rot</sub> & T<sub>kin</sub>). The file name is [**Generate_Rates.f90**](Generate_Rates.f90). In this example file, the rotational temperature is set at ***T<sub>rot</sub> = 250 k*** and the kinetic temperature is ***T<sub>kin</sub> = 350 k***.
-
-Here are the steps to insert desired temperatures.
+In the example provided the input values of tempetatures (both T<sub>rot</sub> & T<sub>kin</sub>) are specified in the file [**Generate_Rates.f90**](Generate_Rates.f90) and are set to ***T<sub>rot</sub> = 250 K*** and ***T<sub>kin</sub> = 350 k***. They can be easily changed to your desired input values of  rotational and kinetic temperatures. Here are the steps to insert the desired temperatures.
 
 1. First, open the file [**Generate_Rates.f90**](Generate_Rates.f90) using any editor.
 2. Then, scroll down a bit to locate the line
