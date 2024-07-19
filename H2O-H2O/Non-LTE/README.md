@@ -2,7 +2,7 @@
 
 ## Objective:
 
-This program computes rate coefficients for state-to-state rotational transitions in H<sub>2</sub>O + H<sub>2</sub>O system as a function of Rotational and Kinetic temperatures (T<sub>rot</sub> & T<sub>kin</sub>). The code is primarily developed to be used for astronomical modeling in atmospheres of comets, and other astrophysical environments where H<sub>2</sub>O is discovered. The **temperatures (both T<sub>rot</sub> & T<sub>kin</sub>)** are used as input in the unit of **kelvin** and the rotational state-to-state transitions **rate coefficients (*k*)** is computed as ***cm<sup>3</sup>s<sup>-1</sup>***.
+This program computes rate coefficients for rotational state-to-state transitions in H<sub>2</sub>O + H<sub>2</sub>O collisions as a function of Rotational and Kinetic temperatures, T<sub>rot</sub> and T<sub>kin</sub>, and for any value of the ortho/para ratio of water molecules. The code is primarily developed to be used for astronomical modeling of cometary comae, atmospheres of icy planets, water rich exoplanets and other astrophysical environments where conditions deviate from thermodynamic equilibrium and where the H<sub>2</sub>O + H<sub>2</sub>O collisions are important. The **temperatures (both T<sub>rot</sub> & T<sub>kin</sub>)** are used as input in the unit of **kelvin** and the rotational state-to-state transitions **rate coefficients (*k*)** is computed as ***cm<sup>3</sup>s<sup>-1</sup>***.
 
 ## Installation:
 
