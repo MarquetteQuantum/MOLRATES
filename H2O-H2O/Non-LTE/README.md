@@ -36,7 +36,7 @@ and  replace **gfortran** with the choice of compiler.
 
 ## Input:
 
-In the example provided the input values of tempetatures (both T<sub>rot</sub> & T<sub>kin</sub>) are specified in the file [**Generate_Rates.f90**](Generate_Rates.f90) and are set to ***T<sub>rot</sub> = 250 K*** and ***T<sub>kin</sub> = 350 k***. They can be easily changed to your desired input values of  rotational and kinetic temperatures. Here are the steps to insert the desired temperatures.
+In the example provided the input values of tempetatures (both T<sub>rot</sub> & T<sub>kin</sub>) are specified in the file [**Generate_Rates.f90**](Generate_Rates.f90) and are set to *T*<sub>rot</sub> = 250 K and *T*<sub>kin</sub> = 350 K. They can be easily changed to your desired input values of  rotational and kinetic temperatures. Here are the steps to insert the desired temperatures.
 
 1. First, open the file [**Generate_Rates.f90**](Generate_Rates.f90) using any editor.
 2. Then, scroll down a bit to locate the line
@@ -45,7 +45,7 @@ In the example provided the input values of tempetatures (both T<sub>rot</sub> &
     Temp_rot = 250.d0
 ```
 
-and set the value of the desired **Rotational Temperature** to this variable.
+and set the value of this variable to the desired rotational temperature.
 
 **Note:** One can modify it further to run a loop over ranges of temperatures. For example:
 
@@ -58,15 +58,15 @@ and set the value of the desired **Rotational Temperature** to this variable.
     end do
 ```
 
-In this example, the code will compute 10 values of **Rotational Temperature** of **10, 20, ..., 100 *k***.
+In this example, the code will run calculations for 10 values of rotational temperature: 10, 20, ..., 100 K.
 
-3. Following a similar approach, find the line below
+3. Following a similar approach the value of kinetic temperatures can also be modified in the following line:
 
 ```sh
     Temp_kin = 350.d0
 ```
 
-**Note:** One can also add a loop over the kinetic temperatures as well. For example:
+**Note:** One can also add a loop over the kinetic temperatures. For example:
 
 ```sh
     do i = 1, 3
