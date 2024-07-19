@@ -2,7 +2,7 @@
 
 ## Objective:
 
-This program computes rate coefficients for rotational state-to-state transitions in H<sub>2</sub>O + H<sub>2</sub>O collisions as a function of rotational and kinetic temperatures of water molecules, *T*<sub>rot</sub> and *T*<sub>kin</sub>, and for any value of the ortho/para ratio of water. The code is primarily developed to be used for astronomical modeling of cometary comae, atmospheres of icy planets, water rich exoplanets and other astrophysical environments where physical conditions deviate from thermodynamic equilibrium and where the H<sub>2</sub>O + H<sub>2</sub>O collisions are important for energy transfer. The **temperatures (both *T*<sub>rot</sub> & *T*<sub>kin</sub>)** in the units of **Kelvin** are used as input and the rotational state-to-state transition **rate coefficients (k)** in the units of **cm<sup>3</sup>s<sup>-1</sup>** are given as output. For the target H<sub>2</sub>O molecules **231 transitions** between lower energy para-states and **210 transitions** between lower energy ortho-states are included. For the projectile H<sub>2</sub>O the value of ortho/para ratio can be **from 0 to 1**. The range of temperatures is **5 ≤ *T* ≤ 1000 K**.
+This program computes rate coefficients for rotational state-to-state transitions in H<sub>2</sub>O + H<sub>2</sub>O collisions as a function of rotational and kinetic temperatures of water molecules, *T*<sub>rot</sub> and *T*<sub>kin</sub>, and for any value of the ortho/para ratio of water. The code is primarily developed to be used for astronomical modeling of cometary comae, atmospheres of icy planets, water rich exoplanets and other astrophysical environments where physical conditions deviate from thermodynamic equilibrium and where the H<sub>2</sub>O + H<sub>2</sub>O collisions are important for energy transfer. The **temperatures (both *T*<sub>rot</sub> & *T*<sub>kin</sub>)** in the units of **Kelvin** are used as input and the rotational state-to-state transition **rate coefficients (*k*)** in the units of **cm<sup>3</sup>s<sup>-1</sup>** are given as output. For the target H<sub>2</sub>O molecules **231 transitions** between lower energy para-states and **210 transitions** between lower energy ortho-states are included. For the projectile H<sub>2</sub>O the value of ortho/para ratio can be **from 0 to 1**. The range of temperatures is **5 ≤ *T* ≤ 1000 K**.
 
 ## Installation:
 
@@ -86,7 +86,7 @@ In this example, the code will run calculations for 10 values of rotational temp
 
 In this example, the code will compute rate coefficients at 3 values of rotational temperature: 10, 20, and 30 K, and, in each case 5 values of kinetic temperature will be considered: 50, 100, 150, 200, and 250 K. 
 
-**Note:** Both *T*<sub>rot</sub> and *T*<sub>kin</sub> can be varied through the range T*<sub>rot</sub>&le;1000 *k***, and the **Kinetic Temperature** in the same range **5 ≤ *T* ≤ 1000 K**.
+**Note:** Both *T*<sub>rot</sub> and *T*<sub>kin</sub> can be varied through the range 5 ≤ *T* ≤ 1000 K.
 
 ## Output:
 
