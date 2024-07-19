@@ -84,7 +84,9 @@ In this example, the code will run calculations for 10 values of rotational temp
     end do    ! Ending the loop over the rotational temperature
 ```
 
-In this example, the code will compute rate coefficients at 3 values of rotational temperature: 10, 20, and 30 K, and, in each case 5 values of kinetic temperature will be considered: 50, 100, 150, 200, and 250 K.
+In this example, the code will compute rate coefficients at 3 values of rotational temperature: 10, 20, and 30 K, and, in each case 5 values of kinetic temperature will be considered: 50, 100, 150, 200, and 250 K. 
+
+**Note:** Both *T*<sub>rot</sub> and *T*<sub>kin</sub> can be varied through the range T*<sub>rot</sub>&le;1000 *k***, and the **Kinetic Temperature** in the same range **5 ≤ *T* ≤ 1000 K**.
 
 ## Output:
 
@@ -95,7 +97,7 @@ After the temperatures are set to the desired values, one would need to recompil
     make
 ```
 
-To get the rate coefficients, one would need to simply run the executable by using the following commands:
+To obtain the rate coefficients, one would need to simply run the executable by using the following commands:
 
 ```sh
     ./compute_rate.exe
@@ -111,8 +113,7 @@ For more details and to cite this work, please refer to:
 1. Bikramaditya Mandal et al, Rotational state-to-state transition rate coefficients for H<sub>2</sub>O + H<sub>2</sub>O collisions at nonequilibrium conditions, Astronomy & Astrophysics, 2024.
 2. Bikramaditya Mandal and Dmitri Babikov, 2023, Astronomy & Astrophysics, 671, A51.
 3. Bikramaditya Mandal and Dmitri Babikov, 2023, Astronomy & Astrophysics, 678, A51.
-
-**Note:** This code works for **Rotational Temperature** in the range **5&le;*T*<sub>rot</sub>&le;1000 *k***, and the **Kinetic Temperature** in the same range of **5&le;*T*<sub>kin</sub>&le;1000 *k***. 
+ 
 
 
 
