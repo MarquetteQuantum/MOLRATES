@@ -8,11 +8,11 @@ This program computes rate coefficients for rotational state-to-state transition
 
 This code is written in Fortran language. The only requirement to compile and use this code is to install a Fortran compiler, such as gfortran or ifort. Here are the steps to compile this code and use for the astronomical modeling.
 
-1. First, one needs to download this project by from the [GitHub website](https://github.com/bikramaditya-mandal/Water_Rate_Coefficients.git). Alternatively, one can clone this project using CLI and the following commands.
+1. First, one needs to download this project by from the [GitHub website](https://github.com/bikramaditya-mandal/Rate-Coefficients.git). Alternatively, one can clone this project using CLI and the following commands.
 
 ```sh
-   git clone https://github.com/bikramaditya-mandal/Water_Rate_Coefficients.git
-   cd Water_Rate_Coefficients
+   git clone https://github.com/bikramaditya-mandal/Rate-Coefficients.git
+   cd Rate-Coefficients/H2O-H2O/Non-LTE/
 ```
 
 2. Then, one needs to edit the first line of the Makefile to incorporate the appropriate installed compiler by modifying 
