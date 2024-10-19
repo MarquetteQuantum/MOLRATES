@@ -3,7 +3,7 @@
 
 This Python script calculates effective and thermal rate coefficients for H2O + H2 collisions using the method described by Daniel et al., with their data retrieved from BASECOL database.
 The same 27 values of temperature in the range between 5K and 1500K are considered as in the original work of Daniel et al.
-The ratio of ortho/para-H2 is assumed to be equal to 3, but this can easily be modified in the code.
+The ratio of ortho/para-H2 is assumed to be equal to 3, but this can be easily modified in the code.
 
 Namely, to compute thermal rate coefficients for all transitions in ortho-H2O, the effective rate coefficients obtained for H2(j=2) projectile are used as an approximation for H2(j=4,6,8) projectiles. 
 The same approach is used for some transitions para-H2O, except those few where the data for H2(j=2) projectile are missing. For those cases, the effective rate coefficients obtained for ortho-H2(j=1) projectile are used as an approximation for para-H2(j=2,4,6,8).
