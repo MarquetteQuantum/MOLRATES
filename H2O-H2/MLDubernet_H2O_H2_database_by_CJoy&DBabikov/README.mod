@@ -1,7 +1,7 @@
 
 # H2O-H2 Rate Coefficients Calculator
 
-This Python script calculates effective and thermal rate coefficients for H2O + H2 collisions using the method described by Daniel et al., with data retrieved from the BASECOL database.
+This Python script calculates effective and thermal rate coefficients for H2O + H2 collisions using the method described by Daniel et al., with their data retrieved from BASECOL database.
 The same 27 values of temperature in the range between 5K and 1500K are considered as in the original work of Daniel et al.
 The ratio of ortho/para-H2 is assumed to be equal to 3, but this can easily be modified in the code.
 
