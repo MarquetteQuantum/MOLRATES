@@ -1,5 +1,5 @@
 
-# H2O-H2 Rate Coefficients Calculator
+## H2O-H2 Rate Coefficients Calculator
 
 This Python script calculates effective and thermal rate coefficients for rotational state-to-state transitions in H2O + H2 collisions using mixed quantum-classical theory (MQCT) data. The calculations are performed for 21 temperature values ranging from 10K to 2000K.
 
