@@ -15,5 +15,5 @@ The data is organized by molecular symmetry combinations, with each ZIP file con
 - **sigmaU_qu, sigmaE_qu**: Quenching cross-sections 
 - **sigmaU_ex, sigmaE_ex**: Excitation cross-sections 
 - **E_coll_qu, E_coll_ex**: Respective collision energies
-- 
+  
 **Note:** Quantum numbers correspond to quenching transitions. Excitation cross-sections are for the reverse process.
